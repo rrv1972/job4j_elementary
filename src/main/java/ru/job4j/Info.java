@@ -30,7 +30,7 @@ public class Info {
 
  */
 
-public class Info {
+/*public class Info {
     public static void hello(String name, int age) {
         System.out.println("Hello, " + name + ", age = " + age);
     }
@@ -43,5 +43,28 @@ public class Info {
         Info.hello(name, age);
         Info.hello(name, age);
     }
-}
+}/*
 
+ */
+
+public class Info {
+
+    public static int func1(int x) {
+        int y = x * x + 1;
+        return y;
+    }
+
+    public static int func2(int x) {
+        int y = 1 / x;
+        return y;
+    }
+
+    public static void main(String[] args) {
+        int result1 = Info.func1(3);
+        int result2 = Info.func2(5);
+        int result3 = Info.func1(100);
+        int total = result1 + result2;
+        System.out.println(total);
+        System.out.println(result3);
+    }
+}
