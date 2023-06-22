@@ -2,6 +2,10 @@ package ru.job4j.ru.job4.calculator;
 
 public class Calculator {
     public static void main(String[] args) {
+        int size = 10;
+        size = 100;
+        size = size - 5;
+        System.out.println(size);
         int one = 1;
         int two = 2;
         int onePusTwo = one + two;
