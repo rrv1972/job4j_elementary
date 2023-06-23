@@ -3,12 +3,12 @@ package ru.job4j.converter;
 public class Converter {
 
     public static float rubtoEuro(float value) {
-        float result = value / 90;
+        float result = value / 70;
         return result;
     }
 
     public static float rubtoDollar(float value) {
-        float result = value / 84;
+        float result = value / 60;
         return result;
     }
 
