@@ -11,7 +11,7 @@ public class SqArea {
          int k = 2;
          int p = 6;
          double s = squAre(k, p);
-         System.out.println("Площадь прямоугольника равна " + s);
+         System.out.println("Площадь прямоугольника ровна " + s);
 
     }
 }
