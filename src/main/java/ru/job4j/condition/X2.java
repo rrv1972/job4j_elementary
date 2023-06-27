@@ -1,4 +1,4 @@
-package ru.jo
+package ru.job4j.condition;
 
 b4j.condition;public class X2 {
     public static int calc(int a, int b, int c, int x) {
