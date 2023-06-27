@@ -14,6 +14,7 @@ public class FitTest {
         double out = Fit.weightMan(hight);
         Assert.assertEquals(expected, out, 0.01);
     }
+
     @Test
 
     public void whenman190then103() {
@@ -40,6 +41,5 @@ public class FitTest {
         double out = Fit.weightWoman(hight);
         Assert.assertEquals(expected, out, 0.01);
     }
-
 
 }
